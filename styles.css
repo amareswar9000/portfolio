@@ -4,15 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-.counter{
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    #visit-count {
-      font-size: 24px;
-      font-weight: bold;
-    }
+
 
   
   html {
@@ -430,7 +422,15 @@
     width: 40%;
   }
   
-  
+  .counter{
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    #visit-count {
+      font-size: 24px;
+      font-weight: bold;
+    }
   
   
   /*  Contact  */
