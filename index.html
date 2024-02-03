@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+    // Function to update and display visit count
+    function updateVisitCount() {
+      let count = localStorage.getItem('visitCount') || 0;
+      count = parseInt(count) + 1;
+      localStorage.setItem('visitCount', count);
+      document.getElementById('visit-count').textContent = count;
+    }
+
+    // Call the function on page load
+    window.onload = function() {
+      updateVisitCount();
+    };
+  </script>
+
+
     <title>Portfolio Landing Page</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -206,7 +222,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
+    <h1 class="counter">Welcome to My Website!</h1>
+  <p class="counter">This website has been visited:</p>
+  <p class="counter" id="visit-count">0</p>
+
+
 
       <!-- Footer -->
       <footer>
