@@ -4,7 +4,10 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-
+.video{
+    display:flex;
+    justify-content:center;
+}
 .cont {
   font-family: 'Arial', sans-serif;
   margin: 0;
